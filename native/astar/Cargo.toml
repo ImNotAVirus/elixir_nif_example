@@ -1,0 +1,14 @@
+[package]
+name = "astar"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+name = "astar"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = "0.22.2"
+pathfinding = "2.2.1"
